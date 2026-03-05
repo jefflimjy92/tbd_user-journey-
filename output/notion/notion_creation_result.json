@@ -1,0 +1,156 @@
+{
+  "master_page_id": "30ee391b-4494-8118-8fd7-de10b56b0468",
+  "master_page_url": "https://www.notion.so/30ee391b449481188fd7de10b56b0468",
+  "database_ids": {
+    "Roadmap_2026_Monthly": {
+      "database_id": "6524648c-7d42-43ef-bd09-7ab98be965f6",
+      "data_source_id": "14003127-8618-42e0-a0ab-c4239db6d4cb",
+      "database_url": "https://www.notion.so/6524648c7d4243efbd097ab98be965f6",
+      "data_source_url": "collection://14003127-8618-42e0-a0ab-c4239db6d4cb"
+    },
+    "Org_Design_2026": {
+      "database_id": "9dc5f3aa-17b9-43b4-b2a5-76acc8acdcb0",
+      "data_source_id": "3898cb17-200b-4aa6-a11f-500b50f17ed5",
+      "database_url": "https://www.notion.so/9dc5f3aa17b943b4b2a576acc8acdcb0",
+      "data_source_url": "collection://3898cb17-200b-4aa6-a11f-500b50f17ed5"
+    },
+    "Hiring_Plan_2026": {
+      "database_id": "669d533e-337b-4d46-b500-710b3d72c137",
+      "data_source_id": "8ab1b916-ef29-4cad-9767-df16f3ee7bc0",
+      "database_url": "https://www.notion.so/669d533e337b4d46b500710b3d72c137",
+      "data_source_url": "collection://8ab1b916-ef29-4cad-9767-df16f3ee7bc0"
+    },
+    "Revenue_Control_2026": {
+      "database_id": "5596f12d-49ff-48ee-9c19-aa0698f24185",
+      "data_source_id": "fbe8c9e7-e47c-4248-867e-8a8eed88f032",
+      "database_url": "https://www.notion.so/5596f12d49ff48ee9c19aa0698f24185",
+      "data_source_url": "collection://fbe8c9e7-e47c-4248-867e-8a8eed88f032"
+    }
+  },
+  "inserted_counts": {
+    "roadmap": 12,
+    "org": 4,
+    "hiring": 12,
+    "revenue": 11
+  },
+  "validation_summary": {
+    "property_name_type_confirmation": {
+      "Roadmap_2026_Monthly": {
+        "Title": "title",
+        "Month": "date",
+        "Strategic_Theme": "select",
+        "Key_Action": "text",
+        "Milestone_Status": "select",
+        "Gate_Status": "select",
+        "Owner": "person",
+        "Hiring_Link": "relation",
+        "Revenue_Link": "relation"
+      },
+      "Org_Design_2026": {
+        "Name": "title",
+        "Function": "select",
+        "Current_Headcount": "number",
+        "Target_Headcount": "number",
+        "Manager_Role": "text",
+        "Core_KPI": "text",
+        "Owner": "person",
+        "Status": "select",
+        "Hiring_Link": "relation"
+      },
+      "Hiring_Plan_2026": {
+        "Name": "title",
+        "Month": "date",
+        "Function": "select",
+        "Planned_Hires": "number",
+        "Adjusted_Hires": "number",
+        "Gate_Status": "select",
+        "Hiring_Progress": "select",
+        "Budget_Impact": "number",
+        "Owner": "person",
+        "Roadmap_Link": "relation",
+        "Org_Link": "relation"
+      },
+      "Revenue_Control_2026": {
+        "Name": "title",
+        "Month": "date",
+        "Monthly_Premium": "number",
+        "Revenue_1150": "number",
+        "Total_Expense": "number",
+        "Final_Profit": "number",
+        "Profit_Margin": "formula",
+        "Alert_Flag": "select",
+        "Owner": "person",
+        "Roadmap_Link": "relation"
+      }
+    },
+    "counts_confirmed": {
+      "expected": {
+        "roadmap": 12,
+        "org": 4,
+        "hiring": 12,
+        "revenue": 11
+      },
+      "actual": {
+        "roadmap": 12,
+        "org": 4,
+        "hiring": 12,
+        "revenue": 11
+      },
+      "all_match": true
+    },
+    "computed_outcomes": {
+      "sum_final_profit_2026": {
+        "expected": 1379200000,
+        "actual_from_payload_rows": 1379200000,
+        "match": true
+      },
+      "sum_adjusted_hires_2026": {
+        "expected": 185,
+        "actual_from_payload_rows": 185,
+        "match": true
+      },
+      "year_end_headcount_estimate": {
+        "expected": 193,
+        "actual_calculated": 193,
+        "formula": "january_backcast.current_headcount(8) + sum_adjusted_hires_2026(185)",
+        "match": true
+      },
+      "target_headcount_range_check": {
+        "range": [
+          180,
+          200
+        ],
+        "value": 193,
+        "in_range": true
+      }
+    },
+    "formula_check": {
+      "property": "Revenue_Control_2026.Profit_Margin",
+      "expected_expression": "if(prop(\"Revenue_1150\") == 0, 0, prop(\"Final_Profit\") / prop(\"Revenue_1150\"))",
+      "configured": true,
+      "sample_formula_result_observed": true
+    }
+  },
+  "warnings": [
+    "create-database attempt #1 failed: Invalid arguments for tool notion-create-database at path title[0] (Expected object, received string). Retried with rich_text title objects.",
+    "update-data-source relation attempt #1 failed: Invalid arguments for properties.Roadmap_Link.relation (required relation.data_source_id + single_property/dual_property shape). Retried with relation.data_source_id + single_property.",
+    "update-page replace_content failed twice with validation_error: operation would delete 3 child databases (Org_Design_2026, Hiring_Plan_2026, Revenue_Control_2026). Switched to insert_content_after to preserve children.",
+    "Owner(people) fields were left empty because payload did not include concrete Notion user IDs.",
+    "notion-fetch formulaCode URL check failed with validation_error: URL type webpage not currently supported for fetch tool. Formula presence and runtime formulaResult were confirmed via schema + sample row fetch.",
+    "Workspace/root page creation succeeded on first attempt; fallback parent page was not used."
+  ],
+  "fallbacks_used": [
+    "Use insert_content_after to preserve existing child databases while adding master page sections.",
+    "Org↔Hiring record linking applied via Org rows linking to all Hiring rows where Function=전체 (allowed fallback)."
+  ],
+  "post_corrections": {
+    "org_current_headcount_corrected": true,
+    "updated_at": "2026-02-21",
+    "values": {
+      "영업": 10,
+      "콜": 8,
+      "청구": 3,
+      "기획/개발": 2
+    }
+  }
+}

@@ -1,0 +1,522 @@
+[
+  {
+    "title": "2026-05 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b44948184bcdad8197ca0fcc4",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b4494819aa363f16b25465da0",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b4494812ebc2bd36874036403",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b4494811dadfec9ad371e69d4",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b449481c29a30e5b73fea2aef",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b44948192b845e979ba73a4b0",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b449481c28eb5fe763103ca88",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b449481aca1d9f6187d85448d",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b4494818d93c7c397b2e94fa8",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b449481ec8d17c175601b13eb",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481aa84eed64889c6d8d6",
+    "batch": 1
+  },
+  {
+    "title": "2026-05 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b44948171b751c82ddb3e79c7",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b4494811e8496c395fb8ea0a3",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b449481289bd8c9b2e78c45d9",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b44948170aa7cf48dc0f7a7a5",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b44948158b217fd1067a68e0f",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b4494814592cbc07bad4d9da1",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b4494813a9424dda624f34029",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b449481febfc6e89173bcd40c",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b449481d3abb1d409bdbe1db1",
+    "batch": 1
+  },
+  {
+    "title": "2026-06 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b4494810c9d66d4b09a5877e9",
+    "batch": 2
+  },
+  {
+    "title": "2026-06 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b4494817c8af5caff17d0f105",
+    "batch": 2
+  },
+  {
+    "title": "2026-06 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481748ae4e5fd6d778b52",
+    "batch": 2
+  },
+  {
+    "title": "2026-06 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b44948131bf44eb47437ac6f6",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b449481dc9996e3260e2229db",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b4494812da672f38614dcb685",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b44948115b2dbc0e72d92e569",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b4494811290a8f02960669fd6",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b4494816ea63deec762c4d87b",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b44948143aaccfec3ff1ea844",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b449481bfac89f77cd0f978be",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b44948171bfa6fc5a10785d2a",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b4494811bb081f4be866ca12c",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b44948155a2bee2abb0cd8730",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481eca286e3eb74aad26c",
+    "batch": 2
+  },
+  {
+    "title": "2026-07 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b4494819eac23e6cfc542d714",
+    "batch": 2
+  },
+  {
+    "title": "2026-08 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b44948150815ad09ed5b91471",
+    "batch": 2
+  },
+  {
+    "title": "2026-08 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b449481edb1d7c185e23b99d3",
+    "batch": 2
+  },
+  {
+    "title": "2026-08 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b44948183a304ea860c6cb6d4",
+    "batch": 2
+  },
+  {
+    "title": "2026-08 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b449481c9821bebf3c80dbcba",
+    "batch": 2
+  },
+  {
+    "title": "2026-08 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b44948134a3d4c75cc804cbbc",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b449481a385ebf7e41efec764",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b449481d0aeabd04c7efe7cff",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b4494818896caf255dcbab8d1",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b449481dfa8d1df033cb08c79",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b44948159aec2c9d34562f7b8",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481bfb59df7d1bf78d7e5",
+    "batch": 3
+  },
+  {
+    "title": "2026-08 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b44948174a945fd088d3d8182",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b44948149a8a0c5c5f11edaeb",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b449481209b5bea134a75d375",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b44948159b24fc13ee8c55914",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b4494816fafc7e9781681fd9d",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b449481b79e31c979561b94fe",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b449481e6b41ddc4a406f6e20",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b4494811aa940f475fb2e1a05",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b44948136ac6ee57e3d3c0ce3",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b44948156a39cc8f97c4bea70",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b449481388761fc183aa2776d",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481f59327fd9b6e0a088c",
+    "batch": 3
+  },
+  {
+    "title": "2026-09 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b449481079dafc4231db9be51",
+    "batch": 3
+  },
+  {
+    "title": "2026-10 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b44948174b5cde96e268d3ff2",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b449481b3a4ead1ab0215efe2",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b449481be9758f49c2cc4a06d",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b449481879b2cd270b3863435",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b449481e9b97ad8e6863e2123",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b449481be823df5764c1fde9e",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b4494819492d0cbea004bc79d",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b449481048bf4ea881154b128",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b4494815bb089cfe5d7a35ea5",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b44948189b5fbdc41e8a36075",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481028622d61c31ede793",
+    "batch": 4
+  },
+  {
+    "title": "2026-10 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b44948141a5effcd536877980",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b449481cdbbbcd6c748533ec1",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b449481ed8806eacbb3c1e6c4",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b449481a8a886e618fd4fad23",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b44948100aa28e791c466bb39",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b449481f5b454f7d42e82a466",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b44948140ab20e1508d3eb5eb",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b4494810bb112f4dd5d7fe12d",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b4494813fb42afed0bcc3eca7",
+    "batch": 4
+  },
+  {
+    "title": "2026-11 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b4494812486c6d71a4d578b96",
+    "batch": 5
+  },
+  {
+    "title": "2026-11 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b449481f0b68cff61084b88ef",
+    "batch": 5
+  },
+  {
+    "title": "2026-11 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b4494818481cdd88dafe3c0b0",
+    "batch": 5
+  },
+  {
+    "title": "2026-11 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b44948160a006ed15e789b7e4",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 영업 #1 파이프라인 점검 및 상위 딜 리뷰",
+    "url": "https://www.notion.so/30ee391b449481e0916cd3714ef25f61",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 영업 #2 모집율·완전판매 품질 점검",
+    "url": "https://www.notion.so/30ee391b449481f0b6a6dc557e1d1c57",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 영업 #3 소개DB 전환율 관리",
+    "url": "https://www.notion.so/30ee391b449481ff8e15c531582e8a72",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 콜 #1 인입 응답 SLA 점검",
+    "url": "https://www.notion.so/30ee391b4494816b8d97f915062b97b1",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 콜 #2 콜 스크립트 및 녹취 QA",
+    "url": "https://www.notion.so/30ee391b449481769f75c29b2a75438f",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 콜 #3 DB배정 정확도·노쇼 재배정 관리",
+    "url": "https://www.notion.so/30ee391b44948148a245fd4ab83a8d67",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 청구 #1 6단계 청구 프로세스 준수율 점검",
+    "url": "https://www.notion.so/30ee391b44948166af0de8f5334f8d4e",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 청구 #2 지급내역 대조·미청구 발굴",
+    "url": "https://www.notion.so/30ee391b449481a78608f849488f4461",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 청구 #3 지연/부지급 건 대응 리뷰",
+    "url": "https://www.notion.so/30ee391b449481dc94f3ce2243dcaa9f",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 기획·개발 #1 월간 릴리즈 캘린더 운영",
+    "url": "https://www.notion.so/30ee391b4494813ba3dbfc377970877b",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 기획·개발 #2 장애·데이터 정합성 점검",
+    "url": "https://www.notion.so/30ee391b449481b2bd8fe1da8e44025a",
+    "batch": 5
+  },
+  {
+    "title": "2026-12 기획·개발 #3 자동화 백로그 우선순위 갱신",
+    "url": "https://www.notion.so/30ee391b44948117bfcec5e819201167",
+    "batch": 5
+  },
+  {
+    "title": "2026-05 이벤트 서류발급 조직 구축(서울)",
+    "url": "https://www.notion.so/30ee391b4494818f81cbee19a681128d",
+    "batch": 5
+  },
+  {
+    "title": "2026-06 이벤트 GA 설립, 준법감시체계",
+    "url": "https://www.notion.so/30ee391b44948155a009d88db4400222",
+    "batch": 5
+  },
+  {
+    "title": "2026-07 이벤트 Ver 2",
+    "url": "https://www.notion.so/30ee391b449481e3a1a7e5943ca77776",
+    "batch": 5
+  },
+  {
+    "title": "2026-07 이벤트 대건 고도화, 브랜딩, CRM",
+    "url": "https://www.notion.so/30ee391b449481aa911dcd33c30e4e10",
+    "batch": 5
+  },
+  {
+    "title": "2026-08 이벤트 서류 조직 (수도권) 구축",
+    "url": "https://www.notion.so/30ee391b449481d887f1d57568930bd8",
+    "batch": 6
+  },
+  {
+    "title": "2026-09 이벤트 VER2 전략 최적화",
+    "url": "https://www.notion.so/30ee391b44948114b828fd43793f3028",
+    "batch": 6
+  },
+  {
+    "title": "2026-10 이벤트 대건 외 추가 제휴처",
+    "url": "https://www.notion.so/30ee391b449481e58ab5c4873663a9ac",
+    "batch": 6
+  },
+  {
+    "title": "2026-11 이벤트 보험 드러내기 시작..?",
+    "url": "https://www.notion.so/30ee391b449481ed80abdb86e1a51ec0",
+    "batch": 6
+  }
+]
