@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm --prefix '여정 통합' run build",
-  "devCommand": "npm --prefix '여정 통합' run dev",
-  "outputDirectory": "여정 통합/dist"
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": "dist"
 }
