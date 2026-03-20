@@ -1,0 +1,5 @@
+{
+    "buildCommand": "cd '여정 통합' && npm run build",
+    "devCommand": "cd '여정 통합' && npm run dev",
+    "outputDirectory": "여정 통합/dist"
+}
