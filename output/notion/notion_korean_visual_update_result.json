@@ -1,0 +1,86 @@
+{
+  "updated_master_page_id": "30ee391b-4494-8118-8fd7-de10b56b0468",
+  "updated_master_page_url": "https://www.notion.so/30ee391b449481188fd7de10b56b0468",
+  "updated_data_source_ids": {
+    "roadmap": "collection://14003127-8618-42e0-a0ab-c4239db6d4cb",
+    "org": "collection://3898cb17-200b-4aa6-a11f-500b50f17ed5",
+    "hiring": "collection://8ab1b916-ef29-4cad-9767-df16f3ee7bc0",
+    "revenue": "collection://fbe8c9e7-e47c-4248-867e-8a8eed88f032"
+  },
+  "updated_row_counts": {
+    "roadmap": 12,
+    "hiring": 12,
+    "revenue": 11,
+    "org": 4
+  },
+  "korean_value_checks": {
+    "roadmap_sample": {
+      "page_id": "30ee391b-4494-8102-83a8-e698157078c2",
+      "Gate_Status": "게이트 전",
+      "Milestone_Status": "계획",
+      "Strategic_Theme": "기반 구축",
+      "is_korean": true
+    },
+    "hiring_sample": {
+      "page_id": "30ee391b-4494-812f-bfab-d47d269d340d",
+      "Gate_Status": "정상",
+      "Hiring_Progress": "계획",
+      "is_korean": true
+    },
+    "revenue_sample": {
+      "page_id": "30ee391b-4494-81b3-9d83-dccf92e95b04",
+      "Alert_Flag": "위험",
+      "is_korean": true
+    },
+    "org_sample": {
+      "page_id": "30ee391b-4494-81f4-827f-c67c0b9c7efb",
+      "Status": "계획",
+      "is_korean": true
+    }
+  },
+  "org_page_content_checks": [
+    {
+      "org": "영업",
+      "page_id": "30ee391b-4494-81f4-827f-c67c0b9c7efb",
+      "has_monthly_section": true,
+      "contains_org_specific_tasks": true,
+      "evidence": [
+        "상위 딜 20건 리뷰",
+        "리드 스코어링 기준 재정의"
+      ]
+    },
+    {
+      "org": "콜",
+      "page_id": "30ee391b-4494-81db-8d27-dbeb38e82ebb",
+      "has_monthly_section": true,
+      "contains_org_specific_tasks": true,
+      "evidence": [
+        "상담 녹취 50건 이상 품질 샘플링",
+        "콜백 SLA 미준수 건 추적"
+      ]
+    },
+    {
+      "org": "청구",
+      "page_id": "30ee391b-4494-81d9-97db-ff58a382e7e6",
+      "has_monthly_section": true,
+      "contains_org_specific_tasks": true,
+      "evidence": [
+        "반려 건 Top 5 사유 분석",
+        "고액/분쟁 가능 건 집중 리뷰"
+      ]
+    },
+    {
+      "org": "기획/개발",
+      "page_id": "30ee391b-4494-8120-9f78-c72a7e6bf86c",
+      "has_monthly_section": true,
+      "contains_org_specific_tasks": true,
+      "evidence": [
+        "CRM 전환 퍼널 데이터 정합성 점검",
+        "반복 수작업 2개 이상 자동화 후보 선정"
+      ]
+    }
+  ],
+  "warnings": [
+    "로컬 JSON 리포트 파일 생성은 Notion MCP로 직접 지원되지 않아 로컬 파일 작성 도구를 사용했습니다."
+  ]
+}

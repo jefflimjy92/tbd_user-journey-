@@ -1,0 +1,166 @@
+{
+  "parent_page_url": "https://www.notion.so/30ee391b449481188fd7de10b56b0468",
+  "section_added": true,
+  "nav_link_count": 16,
+  "created": [
+    {
+      "title": "00_노션_반영_가이드",
+      "page_id": "30ee391b-4494-818a-9c00-cac930a1e004",
+      "url": "https://www.notion.so/30ee391b4494818a9c00cac930a1e004"
+    },
+    {
+      "title": "01_마스터_대시보드",
+      "page_id": "30ee391b-4494-813f-9859-c60dc3946b43",
+      "url": "https://www.notion.so/30ee391b4494813f9859c60dc3946b43"
+    },
+    {
+      "title": "02_연간_로드맵",
+      "page_id": "30ee391b-4494-81bf-a9db-d207c5e2cb11",
+      "url": "https://www.notion.so/30ee391b449481bfa9dbd207c5e2cb11"
+    },
+    {
+      "title": "03_조직구성",
+      "page_id": "30ee391b-4494-8137-8780-c082ff2a5f0f",
+      "url": "https://www.notion.so/30ee391b449481378780c082ff2a5f0f"
+    },
+    {
+      "title": "04_채용계획",
+      "page_id": "30ee391b-4494-81a7-977d-d53122dac1b6",
+      "url": "https://www.notion.so/30ee391b449481a7977dd53122dac1b6"
+    },
+    {
+      "title": "05_매출관리",
+      "page_id": "30ee391b-4494-819c-8685-de474e50f687",
+      "url": "https://www.notion.so/30ee391b4494819c8685de474e50f687"
+    },
+    {
+      "title": "06_영업팀_상세",
+      "page_id": "30ee391b-4494-81ae-b555-d795427f1ccb",
+      "url": "https://www.notion.so/30ee391b449481aeb555d795427f1ccb"
+    },
+    {
+      "title": "07_콜팀_상세",
+      "page_id": "30ee391b-4494-8154-b6fe-caa238f17efe",
+      "url": "https://www.notion.so/30ee391b44948154b6fecaa238f17efe"
+    },
+    {
+      "title": "08_청구팀_상세",
+      "page_id": "30ee391b-4494-8103-9389-db6e09c8ba27",
+      "url": "https://www.notion.so/30ee391b449481039389db6e09c8ba27"
+    },
+    {
+      "title": "09_기획개발팀_상세",
+      "page_id": "30ee391b-4494-813b-a7d9-cb3e734748c7",
+      "url": "https://www.notion.so/30ee391b4494813ba7d9cb3e734748c7"
+    },
+    {
+      "title": "10_인사팀_상세",
+      "page_id": "30ee391b-4494-81a0-8db5-df489bf3c39a",
+      "url": "https://www.notion.so/30ee391b449481a08db5df489bf3c39a"
+    },
+    {
+      "title": "11_마케팅팀_상세",
+      "page_id": "30ee391b-4494-810e-9a6f-ef10f588eabe",
+      "url": "https://www.notion.so/30ee391b4494810e9a6fef10f588eabe"
+    },
+    {
+      "title": "12_CS팀_상세",
+      "page_id": "30ee391b-4494-811c-b9c9-ef82246b3a57",
+      "url": "https://www.notion.so/30ee391b4494811cb9c9ef82246b3a57"
+    },
+    {
+      "title": "13_법률팀_상세",
+      "page_id": "30ee391b-4494-8157-855f-d0397599bf19",
+      "url": "https://www.notion.so/30ee391b44948157855fd0397599bf19"
+    },
+    {
+      "title": "14_대시보드_개편_QA_리포트",
+      "page_id": "30ee391b-4494-81d4-88e9-d8462afdae73",
+      "url": "https://www.notion.so/30ee391b449481d488e9d8462afdae73"
+    },
+    {
+      "title": "15_전체_목차_및_반영순서",
+      "page_id": "30ee391b-4494-8116-b3d4-d5374f44fd4f",
+      "url": "https://www.notion.so/30ee391b44948116b3d4d5374f44fd4f"
+    }
+  ],
+  "updated": [
+    {
+      "title": "더바다 2026 운영전략",
+      "page_id": "30ee391b-4494-8118-8fd7-de10b56b0468",
+      "url": "https://www.notion.so/30ee391b449481188fd7de10b56b0468"
+    }
+  ],
+  "failed": [
+    {
+      "title": "00_노션_반영_가이드",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "01_마스터_대시보드",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "02_연간_로드맵",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "03_조직구성",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "04_채용계획",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "05_매출관리",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "06_영업팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "07_콜팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "08_청구팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "09_기획개발팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "10_인사팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "11_마케팅팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "12_CS팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "13_법률팀_상세",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "14_대시보드_개편_QA_리포트",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    },
+    {
+      "title": "15_전체_목차_및_반영순서",
+      "reason": "Notion MCP만으로는 로컬 경로의 Markdown 원문을 읽을 수 없어 본문 동기화를 수행하지 못함 (페이지는 생성됨)."
+    }
+  ],
+  "notes": [
+    "부모 페이지 fetch 재검증 기준으로 \"문서형 대시보드 (최신 반영본)\" 섹션이 추가됨.",
+    "내비게이션 링크(페이지 블록) 수는 16개(00, 01~15)로 확인됨.",
+    "기존 부모 페이지의 child database 블록(로드맵/조직설계/채용계획/매출관리/월간_실행과제)은 삭제·변경하지 않음.",
+    "이번 실행은 페이지/섹션 배치만 수행되었고, 로컬 Markdown 본문 반영은 도구 제약으로 미완료."
+  ]
+}

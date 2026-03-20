@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "더바다 2026 운영전략",
+    "audience": "경영진 실행관리",
+    "period": "2026-01~2026-12",
+    "unit": "KRW",
+    "assumptions": [
+      "수치 기준 원본은 3년 인원 채용 계획.csv",
+      "1월은 인원지표만 역산, 재무 KPI는 2월부터 집계",
+      "손익 게이트 적용 시작: 2026-05",
+      "게이트 기준: 정상>=5%, 주의>=0%, 위험<0%",
+      "기본 오너 정책: 대표/CSO 단일 오너"
+    ]
+  },
+  "source_files": {
+    "csv": "/Users/joonyounglim/Desktop/CSO_전략기획/3년 인원 채용 계획.csv",
+    "docx": "/Users/joonyounglim/Desktop/CSO_전략기획/주식회사 더바다 사업계획서.docx"
+  },
+  "executive_summary": {
+    "philosophy": "인 영업 노하우는 추상화하되, 법률 자문에 필요한 유저 여정, 데이터 흐름, 부서별 업무 현황 정도만 공개 예정 2. 회사 및 사업 현황 가. 사업 철학 - 보험의 본질은 ‘보상' : 대다수 소비자가 보험에 가입하고도 정작 사고 발생 시 보상을 제대로 받지 못하거나, 설계사가 부재하여 방치되는 현실을 직시 ‘보험은 보상을 받기 위해 존재하는 것’이라는 본질에 집중하여 보험 가입부터 실제 보상 단계까지 회사가 끝까지 책임지는 구조를 지향 - 신뢰로 바꾸는 ‘진실된 서비스': 보험업계에 만연한 소비자 불신을 해소하기 위해, ‘과거에 놓친 보상금을 찾아주는 과정’을 통해 실력을 증명하고 신뢰를 구축 고객이 ‘보험 가입은 무조건 더바다에서 해야 한다’라고 느낄 수 있도록, 보험 가입 이후 보상 단계에서의 책임을 강",
+    "value_proposition": "야 한다’라고 느낄 수 있도록, 보험 가입 이후 보상 단계에서의 책임을 강화함으로써 기존 보험 서비스 대비 신뢰도를 제고하는 방향을 지향 나. 기본 비즈니스 모델 1) 고객 신뢰 구축 - 3년 환급금 청구: 고객이 놓친 지난 3개년의 보험금을 찾아주는 서비스를 통해 플랫폼 유입을 유도하고 서비스의 진실성을 증명 - 보험금 간편 청구: 보험금 간편 청구를 통해 보험의 본질인 ‘보상’을 챙김 2) 가치 제안 - 보장 공백 검토: 청구 과정에서 확인된 자료를 분석하여 고객이 원하는 보상과 괴리가 존재하는 보장 공백을 진단 - 고객 맞춤형 설계: 진단 결과를 바탕으로 최적화된 보험 설계를 제안하여 고객은 올바른 보상을, 회사는 수익모델을 달성 3) 사후 관리 - 법인의 보험 관리: 설계사 개인이 아닌, 항구적인 회",
+    "revenue_model": "과 괴리가 존재하는 보장 공백을 진단 - 고객 맞춤형 설계: 진단 결과를 바탕으로 최적화된 보험 설계를 제안하여 고객은 올바른 보상을, 회사는 수익모델을 달성 3) 사후 관리 - 법인의 보험 관리: 설계사 개인이 아닌, 항구적인 회사 시스템을 통해 가입한 보험의 청구 과정을 고객의 생애 주기 전반에 걸쳐 관리 다 법인현황 - 회사명: 주식회사 더바다 - 상시근로자: 16명 (제휴GA 소속설계사 26명) - 現 수익모델 ㅇ 보험금 환급청구 수수료 ㅇ 보험DB 제공 수수료 라. 현재 사업 형태 수행 중인 사업 범위 1) 사업 형태 보상 서비스 및 IT 인프라를 제공하는 플랫폼 법인인 ‘(주)더바다’와 보험 판매 및 모집을 수행하는 보험대리점인 ‘더바다인슈’를 독립된 주체로 각각 운영중 2) 사업 범위 가) ㈜더"
+  },
+  "validation": {
+    "january_backcast": {
+      "label": "26년 1월",
+      "iso_month": "2026-01-01",
+      "current_headcount": 8,
+      "current_call_headcount": 4,
+      "assumption": "인원지표만 역산. 재무 KPI는 2월부터 집계."
+    },
+    "expected_gate_windows": {
+      "yellow": [
+        "2026-05-01",
+        "2026-06-01",
+        "2026-07-01"
+      ],
+      "green": [
+        "2026-08-01",
+        "2026-09-01",
+        "2026-10-01",
+        "2026-11-01",
+        "2026-12-01"
+      ]
+    },
+    "sum_revenue_1150_2026": 28632000000,
+    "sum_total_expense_2026": 27252800000,
+    "sum_final_profit_2026": 1379200000,
+    "sum_adjusted_hires_2026": 185,
+    "year_end_headcount_estimate": 193,
+    "target_headcount_range": [
+      180,
+      200
+    ]
+  },
+  "notion_schema": {
+    "Roadmap_2026_Monthly": {
+      "Title": "title",
+      "Month": "date",
+      "Strategic_Theme": "select",
+      "Key_Action": "rich_text",
+      "Milestone_Status": "select",
+      "Gate_Status": "select",
+      "Owner": "people",
+      "Hiring_Link": "relation",
+      "Revenue_Link": "relation"
+    },
+    "Org_Design_2026": {
+      "Function": "select",
+      "Current_Headcount": "number",
+      "Target_Headcount": "number",
+      "Manager_Role": "rich_text",
+      "Core_KPI": "rich_text",
+      "Owner": "people",
+      "Status": "select"
+    },
+    "Hiring_Plan_2026": {
+      "Month": "date",
+      "Function": "select",
+      "Planned_Hires": "number",
+      "Adjusted_Hires": "number",
+      "Gate_Status": "select",
+      "Hiring_Progress": "select",
+      "Budget_Impact": "number",
+      "Owner": "people",
+      "Roadmap_Link": "relation"
+    },
+    "Revenue_Control_2026": {
+      "Month": "date",
+      "Monthly_Premium": "number",
+      "Revenue_1150": "number",
+      "Total_Expense": "number",
+      "Final_Profit": "number",
+      "Profit_Margin": "formula",
+      "Alert_Flag": "select",
+      "Owner": "people",
+      "Roadmap_Link": "relation"
+    }
+  },
+  "records": {
+    "roadmap_rows": [
+      {
+        "title": "2026-01",
+        "month": "2026-01-01",
+        "strategic_theme": "기반 구축",
+        "key_action": "전략 정렬, KPI 기준선 확정, 월간 운영 리듬 세팅",
+        "milestone_status": "계획",
+        "gate_status": "게이트 전"
+      },
+      {
+        "title": "2026-02",
+        "month": "2026-02-01",
+        "strategic_theme": "확장 시작",
+        "key_action": "월간 운영 및 KPI 점검",
+        "milestone_status": "계획",
+        "gate_status": "게이트 전"
+      },
+      {
+        "title": "2026-03",
+        "month": "2026-03-01",
+        "strategic_theme": "MVP 출시",
+        "key_action": "청구자동화 + 앱 MVP",
+        "milestone_status": "계획",
+        "gate_status": "게이트 전"
+      },
+      {
+        "title": "2026-04",
+        "month": "2026-04-01",
+        "strategic_theme": "전산/GA 준비",
+        "key_action": "전산 구축 | GA 설립 준비",
+        "milestone_status": "계획",
+        "gate_status": "게이트 전"
+      },
+      {
+        "title": "2026-05",
+        "month": "2026-05-01",
+        "strategic_theme": "운영 체계 구축",
+        "key_action": "서류발급 조직 구축(서울) | 소개비율 80%(경력 기준)",
+        "milestone_status": "계획",
+        "gate_status": "주의"
+      },
+      {
+        "title": "2026-06",
+        "month": "2026-06-01",
+        "strategic_theme": "GA 출범·프로세스 정착",
+        "key_action": "GA 설립, 준법감시체계",
+        "milestone_status": "계획",
+        "gate_status": "주의"
+      },
+      {
+        "title": "2026-07",
+        "month": "2026-07-01",
+        "strategic_theme": "V2·CRM 고도화",
+        "key_action": "Ver 2 | 대건 고도화, 브랜딩, CRM",
+        "milestone_status": "계획",
+        "gate_status": "주의"
+      },
+      {
+        "title": "2026-08",
+        "month": "2026-08-01",
+        "strategic_theme": "수도권 확장",
+        "key_action": "서류 조직 (수도권) 구축",
+        "milestone_status": "계획",
+        "gate_status": "정상"
+      },
+      {
+        "title": "2026-09",
+        "month": "2026-09-01",
+        "strategic_theme": "전략 최적화",
+        "key_action": "VER2 전략 최적화",
+        "milestone_status": "계획",
+        "gate_status": "정상"
+      },
+      {
+        "title": "2026-10",
+        "month": "2026-10-01",
+        "strategic_theme": "제휴 확장",
+        "key_action": "대건 외 추가 제휴처",
+        "milestone_status": "계획",
+        "gate_status": "정상"
+      },
+      {
+        "title": "2026-11",
+        "month": "2026-11-01",
+        "strategic_theme": "브랜드 포지셔닝",
+        "key_action": "보험 드러내기 시작..?",
+        "milestone_status": "계획",
+        "gate_status": "정상"
+      },
+      {
+        "title": "2026-12",
+        "month": "2026-12-01",
+        "strategic_theme": "연말 안정화",
+        "key_action": "월간 운영 및 KPI 점검",
+        "milestone_status": "계획",
+        "gate_status": "정상"
+      }
+    ],
+    "org_rows": [
+      {
+        "function": "영업",
+        "current_headcount": 10,
+        "target_headcount": 105,
+        "manager_role": "영업본부 운영 및 생산성 책임",
+        "core_kpi": "월납, 계약고객수, 영업수당 효율",
+        "status": "계획"
+      },
+      {
+        "function": "콜",
+        "current_headcount": 8,
+        "target_headcount": 66,
+        "manager_role": "콜 운영 및 인입-청구 전환율 책임",
+        "core_kpi": "콜 처리량, 전환율, 콜러 생산성",
+        "status": "계획"
+      },
+      {
+        "function": "청구",
+        "current_headcount": 3,
+        "target_headcount": 22,
+        "manager_role": "청구 처리 품질 및 리드타임 책임",
+        "core_kpi": "청구건수, 처리시간, 재청구율",
+        "status": "계획"
+      },
+      {
+        "function": "기획/개발",
+        "current_headcount": 2,
+        "target_headcount": 5,
+        "manager_role": "청구자동화, CRM, 운영시스템 고도화 책임",
+        "core_kpi": "자동화 적용률, 기능 릴리즈 적기율",
+        "status": "계획"
+      }
+    ],
+    "hiring_rows": [
+      {
+        "month": "2026-01-01",
+        "function": "전체",
+        "planned_hires": 0,
+        "adjusted_hires": 0,
+        "gate_status": "게이트 전",
+        "hiring_progress": "계획",
+        "budget_impact": 0,
+        "note": "1월은 역산 기준월. 채용 KPI는 2월부터 집계."
+      },
+      {
+        "month": "2026-02-01",
+        "function": "전체",
+        "planned_hires": 15,
+        "adjusted_hires": 15,
+        "gate_status": "게이트 전",
+        "hiring_progress": "계획",
+        "budget_impact": 15000000,
+        "note": ""
+      },
+      {
+        "month": "2026-03-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "게이트 전",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      },
+      {
+        "month": "2026-04-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "게이트 전",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      },
+      {
+        "month": "2026-05-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 10,
+        "gate_status": "주의",
+        "hiring_progress": "계획",
+        "budget_impact": 10000000,
+        "note": ""
+      },
+      {
+        "month": "2026-06-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 10,
+        "gate_status": "주의",
+        "hiring_progress": "계획",
+        "budget_impact": 10000000,
+        "note": ""
+      },
+      {
+        "month": "2026-07-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 10,
+        "gate_status": "주의",
+        "hiring_progress": "계획",
+        "budget_impact": 10000000,
+        "note": ""
+      },
+      {
+        "month": "2026-08-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "정상",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      },
+      {
+        "month": "2026-09-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "정상",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      },
+      {
+        "month": "2026-10-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "정상",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      },
+      {
+        "month": "2026-11-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "정상",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      },
+      {
+        "month": "2026-12-01",
+        "function": "전체",
+        "planned_hires": 20,
+        "adjusted_hires": 20,
+        "gate_status": "정상",
+        "hiring_progress": "계획",
+        "budget_impact": 20000000,
+        "note": ""
+      }
+    ],
+    "revenue_rows": [
+      {
+        "month": "2026-02-01",
+        "monthly_premium": 46000000,
+        "revenue_1150": 552000000,
+        "total_expense": 587800000,
+        "final_profit": -35800000,
+        "profit_margin_value": -0.064855,
+        "alert_flag": "위험"
+      },
+      {
+        "month": "2026-03-01",
+        "monthly_premium": 72000000,
+        "revenue_1150": 864000000,
+        "total_expense": 903600000,
+        "final_profit": -39600000,
+        "profit_margin_value": -0.045833,
+        "alert_flag": "위험"
+      },
+      {
+        "month": "2026-04-01",
+        "monthly_premium": 108000000,
+        "revenue_1150": 1296000000,
+        "total_expense": 1297400000,
+        "final_profit": -1400000,
+        "profit_margin_value": -0.00108,
+        "alert_flag": "위험"
+      },
+      {
+        "month": "2026-05-01",
+        "monthly_premium": 144000000,
+        "revenue_1150": 1728000000,
+        "total_expense": 1690200000,
+        "final_profit": 37800000,
+        "profit_margin_value": 0.021875,
+        "alert_flag": "주의"
+      },
+      {
+        "month": "2026-06-01",
+        "monthly_premium": 180000000,
+        "revenue_1150": 2160000000,
+        "total_expense": 2079000000,
+        "final_profit": 81000000,
+        "profit_margin_value": 0.0375,
+        "alert_flag": "주의"
+      },
+      {
+        "month": "2026-07-01",
+        "monthly_premium": 216000000,
+        "revenue_1150": 2592000000,
+        "total_expense": 2471800000,
+        "final_profit": 120200000,
+        "profit_margin_value": 0.046373,
+        "alert_flag": "주의"
+      },
+      {
+        "month": "2026-08-01",
+        "monthly_premium": 252000000,
+        "revenue_1150": 3024000000,
+        "total_expense": 2860600000,
+        "final_profit": 163400000,
+        "profit_margin_value": 0.054034,
+        "alert_flag": "안정"
+      },
+      {
+        "month": "2026-09-01",
+        "monthly_premium": 288000000,
+        "revenue_1150": 3456000000,
+        "total_expense": 3253400000,
+        "final_profit": 202600000,
+        "profit_margin_value": 0.058623,
+        "alert_flag": "안정"
+      },
+      {
+        "month": "2026-10-01",
+        "monthly_premium": 324000000,
+        "revenue_1150": 3888000000,
+        "total_expense": 3646200000,
+        "final_profit": 241800000,
+        "profit_margin_value": 0.062191,
+        "alert_flag": "안정"
+      },
+      {
+        "month": "2026-11-01",
+        "monthly_premium": 360000000,
+        "revenue_1150": 4320000000,
+        "total_expense": 4035000000,
+        "final_profit": 285000000,
+        "profit_margin_value": 0.065972,
+        "alert_flag": "안정"
+      },
+      {
+        "month": "2026-12-01",
+        "monthly_premium": 396000000,
+        "revenue_1150": 4752000000,
+        "total_expense": 4427800000,
+        "final_profit": 324200000,
+        "profit_margin_value": 0.068224,
+        "alert_flag": "안정"
+      }
+    ]
+  }
+}
