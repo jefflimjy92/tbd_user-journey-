@@ -1,0 +1,530 @@
+더바다 노드구조 데이터 · JSON
+{
+  "meta": {
+    "title": "더바다 고객여정 운영맵",
+    "version": "vFinal",
+    "totalStages": 8,
+    "colorSystem": {
+      "mainSpine": {
+        "bg": "#1B4F8A",
+        "text": "#FFFFFF",
+        "label": "메인 단계"
+      },
+      "exit": {
+        "bg": "#C0392B",
+        "text": "#FFFFFF",
+        "label": "이탈/종결"
+      },
+      "goal": {
+        "bg": "#1A7A4A",
+        "text": "#FFFFFF",
+        "label": "목표 달성"
+      },
+      "neutral": {
+        "bg": "#F0F4F8",
+        "text": "#2C3E50",
+        "label": "세부 프로세스"
+      }
+    }
+  },
+  "stages": [
+    {
+      "id": "S1",
+      "badge": "①",
+      "name": "광고",
+      "type": "mainSpine",
+      "nodes": [
+        {
+          "id": "ad1",
+          "label": "무반응",
+          "type": "exit"
+        },
+        {
+          "id": "ad2",
+          "label": "클릭",
+          "type": "neutral"
+        },
+        {
+          "id": "ad3",
+          "label": "저장/공유 후 재방문",
+          "type": "neutral"
+        },
+        {
+          "id": "ad4",
+          "label": "댓글/문의 전환",
+          "type": "neutral"
+        },
+        {
+          "id": "ad5",
+          "label": "리타겟팅 재노출",
+          "type": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "badge": "②",
+      "name": "유입",
+      "type": "mainSpine",
+      "notes": "소개 재유입 루프의 도착 지점",
+      "nodes": [
+        {
+          "id": "ui1",
+          "label": "랜딩 진입",
+          "type": "neutral"
+        },
+        {
+          "id": "ui2",
+          "label": "유입경로/캠페인 기록",
+          "type": "neutral"
+        },
+        {
+          "id": "ui3",
+          "label": "동반신청",
+          "type": "neutral"
+        },
+        {
+          "id": "ui4",
+          "label": "추천인/소개인",
+          "type": "neutral"
+        },
+        {
+          "id": "ui5",
+          "label": "중복 유입",
+          "type": "exit"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "badge": "③",
+      "name": "조회",
+      "type": "mainSpine",
+      "nodes": [
+        {
+          "id": "jo1",
+          "label": "정보입력 중단",
+          "type": "exit"
+        },
+        {
+          "id": "jo2",
+          "label": "본인인증 성공",
+          "type": "goal"
+        },
+        {
+          "id": "jo3",
+          "label": "본인인증 실패",
+          "type": "exit"
+        },
+        {
+          "id": "jo4",
+          "label": "필수동의 거부",
+          "type": "exit"
+        },
+        {
+          "id": "jo5",
+          "label": "마케팅 미동의",
+          "type": "exit"
+        },
+        {
+          "id": "jo6",
+          "label": "조회 완료",
+          "type": "goal"
+        },
+        {
+          "id": "jo7",
+          "label": "예상 환급금 산출",
+          "type": "goal"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "badge": "④",
+      "name": "상담",
+      "type": "mainSpine",
+      "nodes": [
+        {
+          "id": "tm1",
+          "label": "1차 TM 완료",
+          "type": "neutral"
+        },
+        {
+          "id": "tm2",
+          "label": "2차 TM 진행",
+          "type": "neutral"
+        },
+        {
+          "id": "tm3",
+          "label": "부재",
+          "type": "neutral"
+        },
+        {
+          "id": "tm4",
+          "label": "장기부재",
+          "type": "exit"
+        },
+        {
+          "id": "tm5",
+          "label": "재통화 예약",
+          "type": "neutral"
+        },
+        {
+          "id": "tm6",
+          "label": "관리대상",
+          "type": "neutral"
+        },
+        {
+          "id": "tm7",
+          "label": "진행불가",
+          "type": "exit",
+          "groupLabel": "진행불가 세부사유",
+          "children": [
+            {
+              "id": "tm7a",
+              "label": "지방대기/특이사항 종결",
+              "type": "exit"
+            },
+            {
+              "id": "tm7b",
+              "label": "월보험료 7만 미만",
+              "type": "exit"
+            },
+            {
+              "id": "tm7c",
+              "label": "보험 미납/실효",
+              "type": "exit"
+            },
+            {
+              "id": "tm7d",
+              "label": "계약자/납입자 불일치",
+              "type": "exit"
+            },
+            {
+              "id": "tm7e",
+              "label": "최근 3개월 치료/수술",
+              "type": "exit"
+            },
+            {
+              "id": "tm7f",
+              "label": "현재 상해 치료중",
+              "type": "exit"
+            },
+            {
+              "id": "tm7g",
+              "label": "약 용량/종류 변경",
+              "type": "exit"
+            },
+            {
+              "id": "tm7h",
+              "label": "중대질환/악화소견",
+              "type": "exit"
+            },
+            {
+              "id": "tm7i",
+              "label": "기존 설계사 친인척",
+              "type": "exit"
+            },
+            {
+              "id": "tm7j",
+              "label": "예외질환 해당",
+              "type": "exit"
+            }
+          ]
+        },
+        {
+          "id": "tm8",
+          "label": "진행가능 전환",
+          "type": "goal"
+        },
+        {
+          "id": "tm9",
+          "label": "영업 인계",
+          "type": "goal"
+        },
+        {
+          "id": "tm10",
+          "label": "민원 방어/클로징",
+          "type": "neutral"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "badge": "⑤",
+      "name": "미팅",
+      "type": "mainSpine",
+      "nodes": [
+        {
+          "id": "mt1",
+          "label": "미팅 예약",
+          "type": "neutral"
+        },
+        {
+          "id": "mt2",
+          "label": "미팅 확정",
+          "type": "goal"
+        },
+        {
+          "id": "mt3",
+          "label": "미팅 취소",
+          "type": "exit"
+        },
+        {
+          "id": "mt4",
+          "label": "미팅전 불가",
+          "type": "exit"
+        },
+        {
+          "id": "mt5",
+          "label": "노쇼",
+          "type": "exit"
+        },
+        {
+          "id": "mt6",
+          "label": "긴급 재배정",
+          "type": "neutral"
+        },
+        {
+          "id": "mt7",
+          "label": "동반/제3자 케이스",
+          "type": "neutral"
+        },
+        {
+          "id": "mt8",
+          "label": "미팅 진행",
+          "type": "goal",
+          "groupLabel": "계약 전환 분기",
+          "children": [
+            {
+              "id": "mt8a",
+              "label": "계약 진행",
+              "type": "goal"
+            },
+            {
+              "id": "mt8b",
+              "label": "계약 보류",
+              "type": "neutral"
+            },
+            {
+              "id": "mt8c",
+              "label": "계약 거절",
+              "type": "exit"
+            },
+            {
+              "id": "mt8d",
+              "label": "청구만 진행",
+              "type": "goal",
+              "crossLink": "S6"
+            },
+            {
+              "id": "mt8e",
+              "label": "상담 마무리",
+              "type": "exit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "badge": "⑥",
+      "name": "청구",
+      "type": "mainSpine",
+      "nodes": [
+        {
+          "id": "cg1",
+          "label": "서류 인수",
+          "type": "neutral"
+        },
+        {
+          "id": "cg2",
+          "label": "1차 청구콜",
+          "type": "neutral"
+        },
+        {
+          "id": "cg3",
+          "label": "수수료 안내",
+          "type": "neutral"
+        },
+        {
+          "id": "cg4",
+          "label": "지급내역서/보험증권 요청",
+          "type": "neutral"
+        },
+        {
+          "id": "cg5",
+          "label": "데이터 분석",
+          "type": "neutral"
+        },
+        {
+          "id": "cg6",
+          "label": "실손 청구불가 항목",
+          "type": "exit"
+        },
+        {
+          "id": "cg7",
+          "label": "비급여 청구가능 항목",
+          "type": "neutral"
+        },
+        {
+          "id": "cg8",
+          "label": "종합 청구가능 항목",
+          "type": "neutral"
+        },
+        {
+          "id": "cg9",
+          "label": "미청구 내역 확정",
+          "type": "goal"
+        },
+        {
+          "id": "cg10",
+          "label": "서류 발급 위탁",
+          "type": "neutral"
+        },
+        {
+          "id": "cg11",
+          "label": "예상 환급금 안내",
+          "type": "neutral"
+        },
+        {
+          "id": "cg12",
+          "label": "고객동의 후 청구접수",
+          "type": "goal"
+        },
+        {
+          "id": "cg13",
+          "label": "서류 누락",
+          "type": "exit"
+        },
+        {
+          "id": "cg14",
+          "label": "발급 지연",
+          "type": "exit"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "badge": "⑦",
+      "name": "환급",
+      "type": "mainSpine",
+      "nodes": [
+        {
+          "id": "hg1",
+          "label": "지급 완료",
+          "type": "goal"
+        },
+        {
+          "id": "hg2",
+          "label": "감액 지급",
+          "type": "exit"
+        },
+        {
+          "id": "hg3",
+          "label": "부지급",
+          "type": "exit",
+          "children": [
+            {
+              "id": "hg7",
+              "label": "외부 전문가 대응 검토",
+              "type": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "hg4",
+          "label": "지급지연 추적 (3/5/7일)",
+          "type": "neutral"
+        },
+        {
+          "id": "hg5",
+          "label": "수수료 최종 안내",
+          "type": "goal"
+        },
+        {
+          "id": "hg6",
+          "label": "부지급/감액 이의검토",
+          "type": "neutral",
+          "children": [
+            {
+              "id": "hg7_ref",
+              "refId": "hg7",
+              "label": "외부 전문가 대응 검토",
+              "type": "neutral"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "badge": "⑧",
+      "name": "소개",
+      "type": "mainSpine",
+      "notes": "재유입 성공 시 ② 유입으로 점선 루프 화살표 연결",
+      "nodes": [
+        {
+          "id": "sg1",
+          "label": "지인 소개 요청",
+          "type": "neutral"
+        },
+        {
+          "id": "sg2",
+          "label": "소개 혜택/수수료 면제 안내",
+          "type": "neutral"
+        },
+        {
+          "id": "sg3",
+          "label": "소개 거절",
+          "type": "exit"
+        },
+        {
+          "id": "sg4",
+          "label": "소개DB 생성",
+          "type": "goal"
+        },
+        {
+          "id": "sg5",
+          "label": "소개 유입 사전고지",
+          "type": "neutral"
+        },
+        {
+          "id": "sg6",
+          "label": "동일 담당자 재배정",
+          "type": "neutral"
+        },
+        {
+          "id": "sg7",
+          "label": "재유입 성공",
+          "type": "goal",
+          "loopTo": "S2",
+          "loopLabel": "재유입 루프"
+        },
+        {
+          "id": "sg8",
+          "label": "재유입 실패",
+          "type": "exit"
+        }
+      ]
+    }
+  ],
+  "specialConnections": [
+    {
+      "from": "mt8d",
+      "to": "S6",
+      "type": "crossLink",
+      "style": "solid",
+      "label": "청구 직행",
+      "color": "#1A7A4A"
+    },
+    {
+      "from": "sg7",
+      "to": "S2",
+      "type": "loop",
+      "style": "dashed",
+      "label": "재유입 루프",
+      "color": "#E67E22"
+    }
+  ]
+}
